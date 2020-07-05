@@ -7,15 +7,14 @@ sections:
 - type: document
   path: contents/basepage/about
   label: About
+- type: directory
+  path: contents/blog
+  label: Blog
+  create: all
   match: "**/*"
 - type: directory
   path: contents/portfolio
   label: Portfolio
-  create: all
-  match: "**/*"
-- type: directory
-  path: contents/blog
-  label: Blog
   create: all
   match: "**/*"
 - type: directory
