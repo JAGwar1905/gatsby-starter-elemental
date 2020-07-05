@@ -1,6 +1,6 @@
 stackbitVersion: ~0.2.0
 ssgName: gatsby    # allowed values: unibit, jekyll, hugo, gatsby, custom
-buildCommand: npm run build  # build command that builds static site
+buildCommand: gatsby build # build command that builds static site
 publishDir: dist   # folder with the generated static site files
 staticDir: static  # folder with files that are copied to publishDir as is
 uploadDir: static/images  # folder with media files, relative to staticDir
