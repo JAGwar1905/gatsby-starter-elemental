@@ -10,8 +10,9 @@ sections:
 - type: directory
   path: contents/blog
   label: Blog
-  create: all
+  create: documents
   match: "**/*"
+  new_doc_ext: ".mdx"
 - type: directory
   path: contents/portfolio
   label: Portfolio
