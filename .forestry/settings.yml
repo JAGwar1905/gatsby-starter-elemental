@@ -5,14 +5,14 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: contents/basepage/about
+  path: contents/basepages/about
   label: About
 - type: directory
   path: contents/blog
   label: Blog
   create: documents
   match: "**/*"
-  new_doc_ext: ".mdx"
+  new_doc_ext: mdx
 - type: directory
   path: contents/portfolio
   label: Portfolio
